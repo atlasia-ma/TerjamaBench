@@ -1,5 +1,5 @@
 # TerjamaBench
-Code used to run evaluation on [TerjamaBench](https://huggingface.co/datasets/atlasia/TerjamaBench).
+Code used to run evaluation on [TerjamaBench](https://huggingface.co/datasets/atlasia/TerjamaBench) using BLEU, chr and TER.
 
 __WARNING__: the dataset is gated, visit https://huggingface.co/datasets/atlasia/TerjamaBench to request access.
 
@@ -22,3 +22,5 @@ scores = evaluate(references, predictions)
 avg_scores = evaluate_model(references, predictions)
 print(f"Average scores: {avg_scores}")
 ```
+## Learn more
+Find our blog post [here](https://huggingface.co/blog/imomayiz/terjama-bench).
